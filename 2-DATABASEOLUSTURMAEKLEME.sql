@@ -1,5 +1,5 @@
 use ETRADE  
---databaseyi seçmek için kullanýlýr
+--databaseyi seÃ§mek iÃ§in kullanÃ½lÃ½r
 
 create database ETRADE
 
@@ -13,9 +13,9 @@ create table CUSTOMERS(
 		);
 
 INSERT INTO CUSTOMERS
-VALUES ('ERDAL BESIKTEPE','RIZE','1971-08-16','CAYELI','E'),
-('HACER BESIKTEPE','RIZE','1969-08-16','SALAHA','K'),
-('EMINE BESIKTEPE','RIZE','1958-08-16','CAYELI','K')
+VALUES ('ERDAL YILMAZ','RIZE','1971-08-16','CAYELI','E'),
+('AYSE CETIN','RIZE','1969-08-16','SALAHA','K'),
+('EMINE KABA','RIZE','1958-08-16','CAYELI','K')
 
 
 ALTER TABLE CUSTOMERS ADD PHONE VARCHAR(10)
@@ -68,4 +68,5 @@ CREATE TABLE USERS(
 				BIRTHDAYY DATE,
 				AGE INT,
 				AGECLASS VARCHAR(30)
+
 )
